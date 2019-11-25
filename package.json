@@ -1,0 +1,30 @@
+{
+  "name": "css-design-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn run watch:pug --watch",
+    "build": "yarn run pug & yarn run scss",
+    "pug": "pug src/ --hierarchy -o dist/html -P",
+    "scss": "node-sass --include-path scss src/scss/style.scss dist/html/css/style.css",
+    "watch:pug": "pug src/ --hierarchy -o dist/html -P -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kawausomando/css-design-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kawausomando/css-design-practice/issues"
+  },
+  "homepage": "https://github.com/kawausomando/css-design-practice#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0",
+    "pug": "^2.0.4",
+    "pug-cli": "^1.0.0-alpha6",
+    "pug-loader": "^2.4.0",
+    "yarn": "^1.19.1"
+  }
+}
