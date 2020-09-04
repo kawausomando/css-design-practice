@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/kawausomando/css-design-practice#readme",
   "dependencies": {
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "pug": "^2.0.4",
     "pug-cli": "^1.0.0-alpha6",
     "pug-loader": "^2.4.0",
